@@ -32,11 +32,11 @@ export const darkPrimary = {
   colors: {
     header: "rgb(144, 224, 239)",
     background: "rgb( 255, 255, 255)",
-    footer: "rgb( 144, 224, 239)",
+    footer: "rgb( 0, 0, 0)",
     text: "rgb( 255, 255, 255)",
     quoteBgc: "rgb(144, 224, 239)",
-    quoteTitle: "rgb( 255, 255, 255)",
-    quoteBody: "rgb( 255, 255, 255)",
+    quoteTitle: "rgb( 0, 0, 0)",
+    quoteBody: "rgb( 0, 0, 0)",
     quoteBorder: "rgb( 144, 224, 239)",
     border: "rgb(144, 224, 239)",
   }
@@ -47,11 +47,11 @@ export const darkSecondary = {
   colors: {
     header: "rgb(222, 219, 210)",
     background: "rgb( 255, 255, 255)",
-    footer: "rgb( 222, 219, 210)",
+    footer: "rgb( 0, 0, 0)",
     text: "rgb( 255, 255, 255)",
     quoteBgc: "rgb(222, 219, 210)",
-    quoteTitle: "rgb( 255, 255, 255)",
-    quoteBody: "rgb( 255, 255, 255)",
+    quoteTitle: "rgb( 0, 0, 0)",
+    quoteBody: "rgb( 0, 0, 0)",
     quoteBorder: "rgb(222, 219, 210)",
     border: "rgb(222, 219, 210)",
   }
