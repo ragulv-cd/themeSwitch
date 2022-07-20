@@ -37,15 +37,16 @@ const Main = () => {
       <div>
         <Card style={{ padding: "10px", }}>
           <CardBody style={{ border: "solid", borderRadius: "6px" }}>
-            <div style={{ padding: "10px", display: "flex" }}>
-              <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="First Name" />
+            <div style={{ padding: "20px", display: "flex" }}>
+              <form action="" style={{ padding: "2px" }}>
+                <div style={{ padding: "4px" }}>
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="First Name" />
+                </div>
                 <div>
                   <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Last Name" />
+                  <input type="text" id="lname" name="lastname" placeholder="Last Name" style={{ marginLeft: "4px" }} />
                 </div>
-
                 <p>Radio button:</p>
                 <input type="radio" id="html" name="fav_language" value="HTML" />
                 <label for="html">Option 1</label><br />
@@ -54,7 +55,13 @@ const Main = () => {
                 <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
                 <label for="javascript">Option 3</label>
                 <div>
-                  <input type="submit" value="Submit" />
+                  <input type="submit" value="Submit" style={{
+                    padding: "10px", marginTop: "10px",
+                    width: "100px",
+                    color: "white",
+                    background: "grey",
+
+                  }} />
                 </div>
               </form>
             </div>

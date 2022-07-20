@@ -17,6 +17,7 @@ import {
   CardTitle,
   CardBody,
 } from "../src/components/styles/Cards.styled";
+import "../src/App.css";
 
 function App() {
   const [selectedTheme, setSelectedTheme] = useState(darkPrimary);
@@ -37,7 +38,8 @@ function App() {
         <Header>Theme Switch Based on Colour Selection</Header>
         <Header>NOTE:In this project,i have not used any Libraries for styles and components</Header>
         <Main />
-        <CardsContainer style={{border:"solid",borderRadius:"6px"}}> 
+        <CardsContainer style={{ border: "solid", borderRadius: "6px",boxShadow:
+        " 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)", }}>
           <Card>
             <CardTitle>CHANING THEME BASED ON COLORS</CardTitle>
             <CardBody>
@@ -45,28 +47,57 @@ function App() {
                 <span>Themes: </span>
                 <Card >
                   <span>CONTRAST: </span>
-                  <ThemeButton style={{ height: "50px", width: "100px" }}
+                  <ThemeButton style={{
+                    height: "50px", width: "100px",
+                    color: "white",
+                    background: "grey",
+
+                  }}
                     className={`contrastPrimary ${selectedTheme === contrastPrimary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(contrastPrimary)}>PRIMARY</ThemeButton>
-                  <ThemeButton style={{ height: "50px", width: "100px" }}
+                  <ThemeButton style={{
+                    height: "50px", width: "100px",
+                    color: "white",
+                    background: "grey",
+
+                  }}
                     className={`contrastSecondary ${selectedTheme === contrastSecondary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(contrastSecondary)}>SECONDARY</ThemeButton>
                 </Card>
                 <Card>
                   <span>DARK: </span>
-                  <ThemeButton style={{ height: "50px", width: "100px",marginLeft:"32px" }}
+                  <ThemeButton style={{
+                    height: "50px", width: "100px",
+                    color: "white",
+                    background: "grey",
+                    marginLeft: "30px",
+                  }}
                     className={`darkPrimary ${selectedTheme === darkPrimary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(darkPrimary)}>PRIMARY</ThemeButton>
-                  <ThemeButton style={{ height: "50px", width: "100px" }}
+                  <ThemeButton style={{
+                    height: "50px", width: "100px",
+                    color: "white",
+                    background: "grey",
+
+                  }}
                     className={`darkSecondary ${selectedTheme === darkSecondary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(darkSecondary)}>SECONDARY</ThemeButton>
                 </Card>
                 <Card>
                   <span>LIGHT: </span>
-                  <ThemeButton style={{ height: "50px", width: "100px" ,marginLeft:"24px"}}
+                  <ThemeButton style={{
+                    height: "50px", width: "100px",
+                    color: "white",
+                    background: "grey",
+                    marginLeft: "24px",
+                  }}
                     className={`lightPrimary ${selectedTheme === lightPrimary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(lightPrimary)}>PRIMARY</ThemeButton>
-                  <ThemeButton style={{ height: "50px", width: "100px" }}
+                  <ThemeButton style={{
+                    height: "50px", width: "100px",
+                    color: "white",
+                    background: "grey",
+                  }}
                     className={`lightSecondary ${selectedTheme === lightSecondary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(lightSecondary)}>SECONDARY</ThemeButton>
                 </Card>
@@ -84,3 +115,4 @@ function App() {
   );
 }
 export default App;
+
