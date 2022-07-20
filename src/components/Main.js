@@ -7,8 +7,14 @@ import {
 } from "./styles/Cards.styled";
 const Main = () => {
   return (
-    <CardsContainer>
-      <Card>
+    <CardsContainer style={{
+      color: "#fffff",
+      borderRadius: "6px",
+      border: "solid",
+      boxShadow:
+        " 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)",
+    }}>
+      <Card style={{ padding: "10px" }}>
         <CardTitle>Card 1</CardTitle>
         <CardBody>
           <p>
@@ -18,7 +24,7 @@ const Main = () => {
           </p>
         </CardBody>
       </Card>
-      <Card>
+      <Card style={{ padding: "10px" }}>
         <CardTitle>Card 2</CardTitle>
         <CardBody>
           <p>
@@ -29,14 +35,17 @@ const Main = () => {
         </CardBody>
       </Card>
       <div>
-        <Card>
-          <CardBody>
+        <Card style={{ padding: "10px", }}>
+          <CardBody style={{ border: "solid", borderRadius: "6px" }}>
             <div style={{ padding: "10px", display: "flex" }}>
               <form action="/action_page.php">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="First Name" />
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Last Name" />
+                <div>
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Last Name" />
+                </div>
+
                 <p>Radio button:</p>
                 <input type="radio" id="html" name="fav_language" value="HTML" />
                 <label for="html">Option 1</label><br />

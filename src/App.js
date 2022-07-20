@@ -37,13 +37,13 @@ function App() {
         <Header>Theme Switch Based on Colour Selection</Header>
         <Header>NOTE:In this project,i have not used any Libraries for styles and components</Header>
         <Main />
-        <CardsContainer>
+        <CardsContainer style={{border:"solid",borderRadius:"6px"}}> 
           <Card>
             <CardTitle>CHANING THEME BASED ON COLORS</CardTitle>
             <CardBody>
               <ThemeContainer >
                 <span>Themes: </span>
-                <Card>
+                <Card >
                   <span>CONTRAST: </span>
                   <ThemeButton style={{ height: "50px", width: "100px" }}
                     className={`contrastPrimary ${selectedTheme === contrastPrimary ? "active" : ""}`}
@@ -54,7 +54,7 @@ function App() {
                 </Card>
                 <Card>
                   <span>DARK: </span>
-                  <ThemeButton style={{ height: "50px", width: "100px" }}
+                  <ThemeButton style={{ height: "50px", width: "100px",marginLeft:"32px" }}
                     className={`darkPrimary ${selectedTheme === darkPrimary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(darkPrimary)}>PRIMARY</ThemeButton>
                   <ThemeButton style={{ height: "50px", width: "100px" }}
@@ -63,7 +63,7 @@ function App() {
                 </Card>
                 <Card>
                   <span>LIGHT: </span>
-                  <ThemeButton style={{ height: "50px", width: "100px" }}
+                  <ThemeButton style={{ height: "50px", width: "100px" ,marginLeft:"24px"}}
                     className={`lightPrimary ${selectedTheme === lightPrimary ? "active" : ""}`}
                     onClick={() => HandleThemeChange(lightPrimary)}>PRIMARY</ThemeButton>
                   <ThemeButton style={{ height: "50px", width: "100px" }}
