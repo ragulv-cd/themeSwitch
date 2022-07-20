@@ -20,7 +20,6 @@ const Main = () => {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut placerat odio. Proin fringilla non lorem iaculis tincidunt. Vestibulum vestibulum posuere est, ut ullamcorper odio accumsan quis. Etiam quis fringilla sem. Nunc et pellentesque felis, sollicitudin accumsan turpis. Nulla tempor enim id odio hendrerit, ut euismod velit gravida. Cras et ipsum at risus tempus imperdiet. Etiam sed lacus posuere, scelerisque dui et, iaculis sem. Praesent interdum purus eu mi dictum efficitur.
 
-            Aliquam erat volutpat. Praesent cursus eleifend orci, nec auctor neque consequat et. Fusce sagittis gravida nunc et accumsan. Donec viverra diam justo, nec pretium ligula finibus a. Quisque nunc dolor, hendrerit at purus at, laoreet venenatis nisl. Praesent vel felis in massa dignissim semper. Ut non finibus arcu. Proin tortor massa, consequat bibendum fringilla in, dictum non sem. Nulla facilisi. Nam accumsan sagittis est sed feugiat. Maecenas condimentum felis eu nisi ultrices molestie. Donec in erat vel sapien ultricies venenatis. Fusce consectetur lorem quis ornare feugiat.
           </p>
         </CardBody>
       </Card>
@@ -28,9 +27,9 @@ const Main = () => {
         <CardTitle>Card 2</CardTitle>
         <CardBody>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut placerat odio. Proin fringilla non lorem iaculis tincidunt. Vestibulum vestibulum posuere est, ut ullamcorper odio accumsan quis. Etiam quis fringilla sem. Nunc et pellentesque felis, sollicitudin accumsan turpis. Nulla tempor enim id odio hendrerit, ut euismod velit gravida. Cras et ipsum at risus tempus imperdiet. Etiam sed lacus posuere, scelerisque dui et, iaculis sem. Praesent interdum purus eu mi dictum efficitur.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut placerat odio. Proin fringilla non lorem iaculis tincidunt. Vestibulum vestibulum posuere est, ut ullamcorper odio accumsan quis. Etiam quis fringilla sem. Nunc et pellentesque felis, sollicitudin accumsan turpis. Nulla tempor enim id odio hendrerit, ut euismod velit gravida. Cras et ipsum at risus tempus imperdiet. Etiam sed lacus posuere, scelerisque dui et, iaculis sem.         Lorem ipsum dolor sit amet, consectetur adipiscing elit.         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum purus eu mi dictum efficitur.
 
-            Aliquam erat volutpat. Praesent cursus eleifend orci, nec auctor neque consequat et. Fusce sagittis gravida nunc et accumsan. Donec viverra diam justo, nec pretium ligula finibus a. Quisque nunc dolor, hendrerit at purus at, laoreet venenatis nisl. Praesent vel felis in massa dignissim semper. Ut non finibus arcu. Proin tortor massa, consequat bibendum fringilla in, dictum non sem. Nulla facilisi. Nam accumsan sagittis est sed feugiat. Maecenas condimentum felis eu nisi ultrices molestie. Donec in erat vel sapien ultricies venenatis. Fusce consectetur lorem quis ornare feugiat.
+            Aliquam erat volutpat. Praesent cursus eleifend orci, nec auctor neque consequat et.
           </p>
         </CardBody>
       </Card>

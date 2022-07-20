@@ -36,10 +36,12 @@ function App() {
       <div className="App">
         <GlobalStyles />
         <Header>Theme Switch Based on Colour Selection</Header>
-        <Header>NOTE:In this project,i have not used any Libraries for styles and components</Header>
+        <Header>NOTE:In this project, I have not used any Libraries for styles and components.</Header>
         <Main />
-        <CardsContainer style={{ border: "solid", borderRadius: "6px",boxShadow:
-        " 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)", }}>
+        <CardsContainer style={{
+          border: "solid", borderRadius: "6px", boxShadow:
+            " 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)",
+        }}>
           <Card>
             <CardTitle>CHANING THEME BASED ON COLORS</CardTitle>
             <CardBody>
